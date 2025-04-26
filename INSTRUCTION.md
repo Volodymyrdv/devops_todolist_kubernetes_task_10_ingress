@@ -5,6 +5,6 @@ The bootstrap.sh script contains all commands to deploy
 ## Validating Ingress-Nginx
 To check that Ingress was created run such commands
 ```
-kubectl get ns (find ingress-nginx)
+kubectl get ns | grep ingress-nginx
 kubectl get ingress -n todoapp
 ```
